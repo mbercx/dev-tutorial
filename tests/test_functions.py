@@ -15,5 +15,5 @@ def test_fixture(list_of_integers):
 
 def test_data_regression(list_of_integers, data_regression):
     """Test the `multiply` function via data regression."""
-    result = multiply(list_of_integers, 2)
+    result = multiply(list_of_integers, 3)
     data_regression.check(result)
